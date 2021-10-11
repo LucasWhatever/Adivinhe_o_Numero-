@@ -9,7 +9,7 @@ Nivel 2: Médio(numeros entre 1 a 30)
 
 Nivel 3: Dificil(numeros entre 1 a 100)
 
-Tendo as opçoes de Jogo: PVP (jogador vs jogador) ou PVE (Jogador vs Computador)
+Tendo as opçoes de Jogo: PVP (Jogador vs Jogador) ou PVE (Jogador vs Computador)
 
 No fim do jogo,é mostrado o vencedor,com o total de tentativas que o mesmo levou para acertar o numero. 
 
