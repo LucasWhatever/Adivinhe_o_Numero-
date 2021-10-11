@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Botão Mágico</title>
+</head>
+<body>
+    <script>
+       alert("Vamos Começar o jogo!")
+       var dificuldade=parseInt(prompt("Digite o nível de diculdade: \n1 Fácil(1 até 10).\n2 Média(1 até 30)\n3 Difícil(1 até 100)"))
+       var jogadores=parseInt(prompt("Digite 1,para PVP \n Digite 2, para PVE"))
+       var contagem1=0
+       var contagem2=0
+       var temGanhador=0
+       var numeromagico=0
+       i=0
+      
+       if(jogadores==1&&dificuldade==1)
+        {
+            numeromagico=Math.floor(Math.random() * 10 + 1)
+
+            while(temGanhador==0) 
+
+{
+  var jogador1= Number(prompt("Jogador 1 Escolha Um Numero!"))
+  var jogador2= Number(prompt("Jogador 2 Escolha Um Numero!"))
+  i++
+  console.log(contagem1)
+  console.log(contagem2)
+  console.log(numeromagico)
+    if(jogador1<numeromagico)
+         {
+          alert("Jogador 1, seu numero é MENOR que o numero mágico!")
+          contagem1++
+          }
+
+          if(jogador1>numeromagico)
+         {
+          alert("Jogador 1, seu numero é MAIOR que o numero mágico!")
+          contagem1++
+          }
+
+ 
+          if(jogador2<numeromagico)
+         {
+          alert(" Jogador 2, seu numero é MENOR que o numero mágico! ")
+          contagem2++
+          }
+         if(jogador2>numeromagico)
+          {
+              alert("Jogador 2, seu numero é MAIOR que o Numero Mágico!")
+              contagem2++
+          }
+       
+          if(jogador1<numeromagico&&jogador2<numeromagico)
+          {
+             alert("Erro, nimguem acertou o numero magico, tentem novamente! ")
+             contagem1++
+             contagem2++
+          }
+
+          if(jogador1>numeromagico&&jogador2>numeromagico)
+          {
+             alert("Erro, nimguem acertou o numero magico, tentem novamente! ")
+             contagem1++
+             contagem2++
+          }
+          if(jogador1==numeromagico)
+          {
+            alert(" Jogador 1, Parabens você acertou no numero mágico! Com um total de:  " +contagem1+ " tentativa")
+            temGanhador=1
+          }
+          if(jogador2==numeromagico)
+          {
+              alert("Jogador 2, Parabens você acertou no numero mágico!Com um total de:"+contagem2+"tentativa")
+              temGanhador=1
+          }
+        
+  }
+        }
+
+if(jogadores==1&&dificuldade==2)
+        {
+            numeromagico=Math.floor(Math.random() * 30 + 1)
+
+     while(temGanhador==0) 
+
+{
+var jogador1= Number(prompt("Jogador 1 Escolha Um Numero!"))
+var jogador2= Number(prompt("Jogador 2 Escolha Um Numero!"))
+console.log(contagem1)
+console.log(contagem2)
+console.log(numeromagico)
+i++
+if(jogador1<numeromagico)
+    {
+     alert("Jogador 1, seu numero é MENOR que o numero mágico!")
+     contagem1++
+     }
+
+     if(jogador1>numeromagico)
+    {
+     alert("Jogador 1, seu numero é MAIOR que o numero mágico!")
+     contagem1++
+     }
+
+
+     if(jogador2<numeromagico)
+    {
+     alert(" Jogador 2, seu numero é MENOR que o numero mágico! ")
+     contagem2++
+     }
+    if(jogador2>numeromagico)
+     {
+         alert("Jogador 2, seu numero é MAIOR que o Numero Mágico!")
+         contagem2++
+     }
+  
+     if(jogador1<numeromagico&&jogador2<numeromagico)
+     {
+        alert("Erro, nimguem acertou o numero magico, tentem novamente! ")
+        contagem1++
+        contagem2++
+     }
+
+     if(jogador1>numeromagico&&jogador2>numeromagico)
+     {
+        alert("Erro, nimguem acertou o numero magico, tentem novamente! ")
+        contagem1++
+        contagem2++
+     }
+     if(jogador1==numeromagico)
+     {
+       alert(" Jogador 1, Parabens você acertou no numero mágico! Com um total de:  " +contagem1+ " tentativa")
+       temGanhador=1
+     }
+     if(jogador2==numeromagico)
+     {
+         alert("Jogador 2, Parabens você acertou no numero mágico!Com um total de:"+contagem2+"tentativa")
+         temGanhador=1
+     }
+   
+}
+            
+}  
+
+if(jogadores==1&&dificuldade==3)
+        {
+            numeromagico=Math.floor(Math.random() * 100 + 1)
+
+     while(temGanhador==0) 
+
+{
+var jogador1= Number(prompt("Jogador 1 Escolha Um Numero!"))
+var jogador2= Number(prompt("Jogador 2 Escolha Um Numero!"))
+console.log(contagem1)
+console.log(contagem2)
+console.log(numeromagico)
+i++
+if(jogador1<numeromagico)
+    {
+     alert("Jogador 1, seu numero é MENOR que o numero mágico!")
+     contagem1++
+     }
+
+     if(jogador1>numeromagico)
+    {
+     alert("Jogador 1, seu numero é MAIOR que o numero mágico!")
+     contagem1++
+     }
+
+
+     if(jogador2<numeromagico)
+    {
+     alert(" Jogador 2, seu numero é MENOR que o numero mágico! ")
+     contagem2++
+     }
+    if(jogador2>numeromagico)
+     {
+         alert("Jogador 2, seu numero é MAIOR que o Numero Mágico!")
+         contagem2++
+     }
+  
+     if(jogador1<numeromagico&&jogador2<numeromagico)
+     {
+        alert("Erro, nimguem acertou o numero magico, tentem novamente! ")
+        contagem1++
+        contagem2++
+     }
+
+     if(jogador1>numeromagico&&jogador2>numeromagico)
+     {
+        alert("Erro, nimguem acertou o numero magico, tentem novamente! ")
+        contagem1++
+        contagem2++
+     }
+     if(jogador1==numeromagico)
+     {
+       alert(" Jogador 1, Parabens você acertou no numero mágico! Com um total de:  " +contagem1+ " tentativa")
+       temGanhador=1
+     }
+     if(jogador2==numeromagico)
+     {
+         alert("Jogador 2, Parabens você acertou no numero mágico!Com um total de:"+contagem2+"tentativa")
+         temGanhador=1
+     }
+   
+}
+            
+}  
+if(jogadores==2&&dificuldade==1){
+numeroMestre=Math.floor(Math.random() * 10) + 1
+
+for(i=0;numeroMestre!=numeroChute;i++)
+{
+    if(numeroChute<numeroMestre)
+    {
+        alert("Seu n�mero � menor.")
+    }
+    if(numeroChute>numeroMestre)
+    {
+        alert("Seu numero � maior.")
+    }    
+
+    var numeroChute=parseInt(prompt("Digite um n�mero de 1 a 10:"))   
+    console.log(numeromagico)
+}
+
+    if(numeroChute==numeroMestre)
+    {
+        alert("Parabens voce acertou em: " + i + " tentativas")
+    }
+
+}
+
+ if(jogadores==2&&dificuldade==2)
+ {
+
+numeroMestre=Math.floor(Math.random() * 30) + 1
+
+for(i=0;numeroMestre!=numeroChute;i++)
+{
+    if(numeroChute<numeroMestre)
+    {
+        alert("Seu numero é Menor.")
+    }
+    if(numeroChute>numeroMestre)
+    {
+        alert("Seu numero é Maior.")
+    }    
+
+    var numeroChute=parseInt(prompt("Digite um numero de 1 a 30:"))   
+    console.log(numeromagico)
+}
+
+    if(numeroChute==numeroMestre)
+    {
+        alert("Parabens voce acertou em: " + i + " tentativas")
+    }
+ }
+ 
+    if(jogadores==2&&dificuldade==3)
+{
+numeroMestre=Math.floor(Math.random() * 100) + 1
+
+for(i=0;numeroMestre!=numeroChute;i++)
+{
+    if(numeroChute<numeroMestre)
+    {
+        alert("Seu numero é Menor.")
+    }
+    if(numeroChute>numeroMestre)
+    {
+        alert("Seu numero é Maior.")
+    }    
+
+    var numeroChute=parseInt(prompt("Digite um numero de 1 a 100:"))   
+    console.log(numeromagico)
+}
+
+
+    if(numeroChute==numeroMestre)
+    {
+        alert("Parabens voce acertou em: " + i + " tentativas")
+    }
+
+}
+    
+
+
+    </script>
+</body>
+</html>
