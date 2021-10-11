@@ -1,7 +1,7 @@
 # Adivinhe_o_Numero
 Esse é um sistema simples de jogo para adivinhação de numeros, que utiliza a linguagem JavaScript para sua estrutura base e a o comando prompt para jogabilidade, juntamente com a utilização de condionais(If e Else)para adequar-se as inumeras possibilidades do jogo, tendo como principal meio de progreção ou regreção ao desenro-lar do jogo, as funcionalidades dos laços de repetição.
 
-O sistema, ofereçe uma jogabilidade varia com niveis de dificuldade: 
+O sistema, ofereçe uma jogabilidade basica, atráves de niveis de dificuldade: 
 
 Nivel 1: Fácil(numeros entre 1 a 10)
 
